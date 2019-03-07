@@ -1,0 +1,8 @@
+{
+	"extends": "@hoishin/tsconfig",
+	"compilerOptions": {
+		"target": "es2018",
+		"outDir": "lib"
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx"]
+}

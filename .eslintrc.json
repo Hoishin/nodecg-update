@@ -1,0 +1,10 @@
+{
+	"extends": ["@hoishin/ts", "prettier"],
+	"parserOptions": {"project": "tsconfig.json"},
+	"rules": {
+		"no-sync": 0,
+		"@typescript-eslint/explicit-function-return-type": 0,
+		"@typescript-eslint/promise-function-async": 0,
+		"no-console": 0
+	}
+}
